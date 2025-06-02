@@ -436,7 +436,8 @@ p {
 }
 
 .footer-content {
-  /*display: flex;*/
+  display: flex;
+  gap: 120px;
 }
 
 .footer-logo {
@@ -464,4 +465,31 @@ p {
   color: #f4f4fd;
 }
 
+.footer-social-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-icon {
+  fill: #f4f4fd;
+}
 /*#endregion*/
