@@ -125,7 +125,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  transition: transform 0.3s;
+  transition: color 0.3s;
 }
 
 .nav-list-item:hover,
@@ -151,7 +151,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: transform 0.3s;
+  transition: color 0.3s;
 }
 
 .address-list-item:hover,
@@ -211,12 +211,12 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  transition: transform 0.3s;
+  transition: background-color 0.3s;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 /*endregion*/
@@ -286,16 +286,10 @@ p {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  transition: transform 0.3s;
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-member-card:hover .team-social-item,
-.team-member-card:focus .team-social-item {
-  background-color: #404bbf;
 }
 
 .team-member-info {
@@ -337,6 +331,12 @@ p {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  transition: background-color 0.3s;
+}
+
+.team-member-card:hover .team-social-item,
+.team-member-card:focus .team-social-item {
+  background-color: #404bbf;
 }
 
 .team-social-icon {
@@ -365,7 +365,7 @@ p {
 
 .portfolio-card {
   width: calc((100% - 48px) / 3);
-  transition: transform 0.3s;
+  transition: box-shadow 0.3s;
 }
 
 .portfolio-card:hover,
@@ -492,6 +492,12 @@ p {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  transition: background-color 0.3s;
+}
+
+.footer-social-item:hover,
+.footer-social-item:focus {
+  background-color: #31d0aa;
 }
 
 .footer-social-icon {
